@@ -17,9 +17,9 @@
     font-size: 25px;
 }
 #dept{
-    @media (max-width: 408px){
+    
         flex:1
-    }
+    
 }
 #map {
     position: absolute;
@@ -27,4 +27,6 @@
     bottom: 0;
     width: 100%;
   }
-  
+  @media only screen and (min-device-width: 00px){
+    
+  }

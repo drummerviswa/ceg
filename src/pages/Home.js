@@ -1,10 +1,10 @@
 import React from "react";
 import Content from "../components/Content";
 import AnnaUniv from "../components/AnnaUniv";
-import color from "../color/main.js";
 import "../style/styles.css";
 import NavigationBar from "../components/NavigationBar";
 import Footer from "../components/Footer";
+import "../App.css";
 
 function Home() {
   return (
@@ -17,7 +17,8 @@ function Home() {
             <AnnaUniv />
           </div>
         </div>
-        <div className="container">
+        <div className="container depp">
+          <h1 style={{ textAlign: "start" }}>Departments:</h1>
           <Content />
         </div>
       </body>

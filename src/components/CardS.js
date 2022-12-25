@@ -6,13 +6,15 @@ const CardS = (props) => {
   return (
     <>
       <Card.Img
-        style={{ height: "30px", width: "4.45vh" }}
-        variant="top"
+        style={{
+          height: "30px",
+          width: "4.45vh",
+        }}
         src={props.img}
       />
       <Card
         style={{
-          width: "50px",
+          width: props.width,
           flex: 1,
           textAlign: "center",
           backgroundColor: props.color,

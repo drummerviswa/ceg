@@ -1,5 +1,6 @@
 import React from "react";
 import color from "../color/main";
+import "../App.css";
 import { Navbar, Nav, Container } from "react-bootstrap";
 
 function NavigationBar(props) {
