@@ -1,6 +1,5 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import color from "../color/main";
 
 const CardS = (props) => {
   return (

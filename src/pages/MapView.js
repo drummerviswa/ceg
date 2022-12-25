@@ -2,7 +2,6 @@ import "../App.css";
 import "mapbox-gl/dist/mapbox-gl.css";
 import mapboxgl from "mapbox-gl";
 import Map, { Marker } from "react-map-gl";
-import NavigationBar from "../components/NavigationBar";
 import CardS from "../components/CardS";
 import color from "../color/main";
 import book from "../img/markers/book.png";
@@ -313,6 +312,7 @@ function App() {
               <a
                 target="_blank"
                 style={{ textDecoration: "none", color: "black" }}
+                rel="noreferrer"
                 href={i.link}
               >
                 <CardS

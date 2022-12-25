@@ -4,7 +4,12 @@ import Card from "react-bootstrap/Card";
 const CardB = (props) => {
   return (
     <Card style={{ width: "18rem" }}>
-      <a style={{ textDecoration: "none" }} href={props.link} target="_blank">
+      <a
+        style={{ textDecoration: "none" }}
+        href={props.link}
+        rel="noreferrer"
+        target="_blank"
+      >
         <Card.Img
           style={{ height: "150px", width: "287px" }}
           variant="top"

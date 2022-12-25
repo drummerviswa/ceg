@@ -10,9 +10,10 @@ function NavigationBar(props) {
       class="navbar navbar-expand-lg"
     >
       <Container>
-        <Navbar.Brand href="/">
-          <a class="navbar-brand">
+        <Navbar.Brand>
+          <a class="navbar-brand" href="/">
             <img
+              alt="CEG"
               style={{ height: 60, width: 60 }}
               src="https://ceg.annauniv.edu/assets/images/CEG_col.png"
             />
@@ -46,7 +47,6 @@ function NavigationBar(props) {
             </Nav.Link>
             <Nav.Link
               style={{
-                color: "#fff",
                 color: `${props.current === "map" ? color.primary : "#fff"}`,
                 textDecoration: `${
                   props.current === "map" ? "underline" : null

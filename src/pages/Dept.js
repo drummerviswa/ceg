@@ -1,6 +1,5 @@
 import React from "react";
 import Content from "../components/Content";
-import Footer from "../components/Footer";
 import NavigationBar from "../components/NavigationBar";
 
 function Dept() {
