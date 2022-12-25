@@ -14,8 +14,6 @@ import Hospital from "../img/markers/Hospital.png";
 import edu from "../img/markers/Education.png";
 import Auditorium from "../img/markers/Auditorium.png";
 
-mapboxgl.workerClass =
-  require("worker-loader!mapbox-gl/dist/mapbox-gl-csp-worker").default;
 mapboxgl.accessToken =
   "pk.eyJ1Ijoidmlzd2FuYXRoYW5wIiwiYSI6ImNsYnowY29vcDBjc3ozcmp5ZGtwNWc0b3oifQ.HtiFjooBbq0iX5KciX7zYQ";
 function App() {
