@@ -1,7 +1,7 @@
 import "../App.css";
-import "mapbox-gl/dist/mapbox-gl.css";
 import mapboxgl from "mapbox-gl";
-import Map, { Marker } from "react-map-gl";
+import ReactMapGL, { Marker } from "react-map-gl";
+import "mapbox-gl/dist/mapbox-gl.css";
 import CardS from "../components/CardS";
 import color from "../color/main";
 import book from "../img/markers/book.png";
@@ -13,6 +13,7 @@ import Hospital from "../img/markers/Hospital.png";
 import edu from "../img/markers/Education.png";
 import Auditorium from "../img/markers/Auditorium.png";
 
+// eslint-disable-next-line import/no-webpack-loader-syntax
 mapboxgl.accessToken =
   "pk.eyJ1Ijoidmlzd2FuYXRoYW5wIiwiYSI6ImNsYnowY29vcDBjc3ozcmp5ZGtwNWc0b3oifQ.HtiFjooBbq0iX5KciX7zYQ";
 function App() {
@@ -280,8 +281,8 @@ function App() {
   ];
   return (
     <>
-      <div id="map">
-        <Map
+      <div className="animate__animated animate__pulse" id="map">
+        <ReactMapGL
           initialViewState={{
             longitude: 80.23543784105739,
             latitude: 13.011239807106302,
@@ -324,7 +325,7 @@ function App() {
               </a>
             </Marker>
           ))}
-        </Map>
+        </ReactMapGL>
       </div>
     </>
   );

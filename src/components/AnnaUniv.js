@@ -2,6 +2,7 @@ import React from "react";
 import "../style/styles.css";
 import "../App.css";
 import color from "../color/main";
+import "animate.css";
 
 const AnnaUniv = () => {
   return (
@@ -15,6 +16,7 @@ const AnnaUniv = () => {
             textDecorationColor: color.main_assent,
             fontSize: 70,
           }}
+          className="animate__animated animate__heartBeat"
         >
           College of Engineering - Guindy
         </h1>

@@ -3,7 +3,10 @@ import Card from "react-bootstrap/Card";
 
 const CardB = (props) => {
   return (
-    <Card style={{ width: "18rem" }}>
+    <Card
+      className="animate__animated animate__pulse"
+      style={{ width: "18rem" }}
+    >
       <a
         style={{ textDecoration: "none" }}
         href={props.link}

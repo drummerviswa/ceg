@@ -10,7 +10,7 @@ function NavigationBar(props) {
       class="navbar navbar-expand-lg"
     >
       <Container>
-        <Navbar.Brand>
+        <Navbar.Brand className="animate__bounceIn">
           <a class="navbar-brand" href="/">
             <img
               alt="CEG"
