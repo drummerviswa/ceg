@@ -16,7 +16,6 @@
     - Google Map
 
 ### Model and Examples
-
-    ![Homepage](./src/img/Home.png)
-    ![Dept](./src/img/2.png)
-    ![Map](./src/img/3.png)
+![Homepage](./src/img/Home.png)
+![Dept](./src/img/2.png)
+![Map](./src/img/3.png)
